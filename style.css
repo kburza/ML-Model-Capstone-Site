@@ -230,20 +230,36 @@
   .home_heading {
     font-size: 80px;
     margin-bottom: 24px;
-    color: #fff;
+    background: #5A71FB;
+    background: -webkit-linear-gradient(
+      to bottom,
+      #9db6ff,
+      #3755ff
+    );
+    background: linear-gradient(
+      to bottom,
+      #9db6ff,
+      #3755ff
+    );
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -mo-text-fill-color: transparent;
+    
   }
   
   .home_heading span {
-    background: #000000;
+    background: #5A71FB;
     background: -webkit-linear-gradient(
-      to right,
-      #000000,
-      #000000
+      to bottom,
+      #6B88E1,
+      #5A71FB
     );
     background: linear-gradient(
-      to right,
-      #000000,
-      #000000
+      to bottom,
+      #6B88E1,
+      #5A71FB
     );
     background-size: 100%;
     -webkit-background-clip: text;
@@ -341,7 +357,7 @@
   
   .main_content h1 {
     font-size: 1.9rem;
-    background-color: #000000;
+    background-color: #5A71FB;
     background-image: linear-gradient(to bottom, #6B88E1 0%, #5A71FB 100%);
     background-size: 100%;
     -webkit-background-clip: text;
